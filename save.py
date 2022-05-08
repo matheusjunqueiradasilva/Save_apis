@@ -27,7 +27,7 @@ class ApiMiddleware:
         df.to_sql(nome_tabela, self.engine, if_exists='replace')
 
 
-    
+ # chama as funções de conexão, e formatação dos dados.
 pegar_dados= ApiMiddleware("")
 pegar_dados.formata("")
 
