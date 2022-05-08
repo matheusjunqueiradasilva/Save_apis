@@ -6,11 +6,11 @@ código desenvolvido para guardar os dados pegos de uma api dentro de um banco d
 
 
 
-##Running
+## Running
 self.engine = create_engine("") -> a engine do banco de dados que o sqlachemy vai abrir a conexão.
 pegar_dados.formata("") -> o primeiro argumento é o nome da tabela, e segundo a chave da api
 
-###References
+### References
 
 SQLAlchemy -> https://docs.sqlalchemy.org/en/14/
 Pandas -> https://pandas.pydata.org
