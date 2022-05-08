@@ -4,7 +4,6 @@ import pandas as pd
 import json
 import psycopg2
 import requests
-import pprint
 from flatten_json import flatten
 
 class ApiMiddleware:
