@@ -2,7 +2,9 @@
 
 código desenvolvido para guardar os dados pegos de uma api dentro de um banco de dados.
 
-** crie uma variável de ambiente para os seus endpoints e modifiquem as variáveis no __init__. **
+#### Importante
+
+*crie uma variável de ambiente para os seus endpoints e modifiquem as variáveis no __init__.*
 
 
 
