@@ -7,8 +7,8 @@ import requests
 import pprint
 from flatten_json import flatten
 
-class APIMiddleware:
-    def __init__(self, endpoint):
+class ApiMiddleware:
+    def __init__(self,endpoint):
         # Inicializa a engine do postgress e seta o endpoint
         self.endpoint = endpoint
         self.engine = create_engine("")
@@ -29,13 +29,6 @@ class APIMiddleware:
 
 
     
-
-pegar_dados_organizations =APIMiddleware("")
-pegar_dados_organizations.save("")
-
-pegar_dados_dels= APIMiddleware("")
-pegar_dados_dels.formata("")
-
-pegar_dados_person = APIMiddleware('')
-pegar_dados_person.formata("")
+pegar_dados= ApiMiddleware("")
+pegar_dados.formata("")
 
